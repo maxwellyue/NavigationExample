@@ -11,6 +11,7 @@
 		DB1D186129B82C540092945A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1D186029B82C540092945A /* ContentView.swift */; };
 		DB1D186329B82C550092945A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1D186229B82C550092945A /* Assets.xcassets */; };
 		DB1D186729B82C550092945A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1D186629B82C550092945A /* Preview Assets.xcassets */; };
+		DB1D186E29B830260092945A /* SidebarMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1D186D29B830260092945A /* SidebarMenuItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,9 @@
 		DB1D186229B82C550092945A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB1D186429B82C550092945A /* NavigationExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NavigationExample.entitlements; sourceTree = "<group>"; };
 		DB1D186629B82C550092945A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB1D186D29B830260092945A /* SidebarMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarMenuItem.swift; sourceTree = "<group>"; };
+		DB1D186F29B8304F0092945A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DB1D187029B87A750092945A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +56,14 @@
 		DB1D185D29B82C540092945A /* NavigationExample */ = {
 			isa = PBXGroup;
 			children = (
+				DB1D187029B87A750092945A /* Info.plist */,
 				DB1D185E29B82C540092945A /* NavigationExampleApp.swift */,
 				DB1D186029B82C540092945A /* ContentView.swift */,
+				DB1D186D29B830260092945A /* SidebarMenuItem.swift */,
 				DB1D186229B82C550092945A /* Assets.xcassets */,
 				DB1D186429B82C550092945A /* NavigationExample.entitlements */,
 				DB1D186529B82C550092945A /* Preview Content */,
+				DB1D186F29B8304F0092945A /* README.md */,
 			);
 			path = NavigationExample;
 			sourceTree = "<group>";
@@ -139,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB1D186E29B830260092945A /* SidebarMenuItem.swift in Sources */,
 				DB1D186129B82C540092945A /* ContentView.swift in Sources */,
 				DB1D185F29B82C540092945A /* NavigationExampleApp.swift in Sources */,
 			);
@@ -269,6 +277,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NavigationExample/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -307,6 +316,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NavigationExample/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
